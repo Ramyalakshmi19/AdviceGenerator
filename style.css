@@ -1,0 +1,55 @@
+body
+{
+    background-color: #202632;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+.MainBox
+{
+    margin-top:25vh;
+    width:40vw;
+    height:50vh;
+    border-radius: 12px;
+    background-color:#313A49;
+
+}
+.Heading
+{
+    margin-top:7vh;
+    font-size:smaller;
+    font-family: 'Manrope', sans-serif;
+    color:hsl(150, 100%, 66%);
+    text-align: center;
+    letter-spacing: 4px;
+}
+#advice
+{
+    width:35vw;
+    height:20vh;
+    margin-left:2vw;
+    font-family: 'Manrope', sans-serif;
+    font-size:28px;
+    color:#8A99A3;
+}
+.divider
+{
+    width:35vw;
+    margin-left: 2.5vw;
+    
+}
+.dice
+{
+
+    padding:10px;
+    width:30px;
+    margin-top:5vh;
+    margin-left: 18vw;
+    background-color:hsl(150, 100%, 66%);
+    border-radius:20px;
+   
+}
+.dice:hover
+{
+    box-shadow:-1px -1px 2px 5px  hsl(150, 100%, 66%);
+}
